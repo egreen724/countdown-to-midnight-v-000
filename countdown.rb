@@ -3,8 +3,8 @@
 
 
 def countdown(number)
-  number == 10 
   def countdown_with_sleep(number)
+    number == 10 
     while number > 0 
     print "#{number} SECOND(S)!"
     sleep 1
